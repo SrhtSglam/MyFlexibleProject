@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\myflexibleproject.blazor.props" />
+</Project>

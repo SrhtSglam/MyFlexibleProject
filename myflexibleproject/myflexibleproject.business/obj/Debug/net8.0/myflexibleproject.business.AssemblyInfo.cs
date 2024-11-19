@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("myflexibleproject.business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e6fe06b3cfee490b1557115a8c101d107f1cf09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ab17478bbaac6f348c040c8f8359be63a6ba50e")]
 [assembly: System.Reflection.AssemblyProductAttribute("myflexibleproject.business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("myflexibleproject.business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

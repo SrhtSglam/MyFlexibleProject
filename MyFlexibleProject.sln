@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myflexibleproject.data", "m
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myflexibleproject.entity", "myflexibleproject\myflexibleproject.entity\myflexibleproject.entity.csproj", "{0613678E-165B-4F7A-A635-46A56CA9464A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myflexibleproject.webapp", "myflexibleproject\myflexibleproject.webapp\myflexibleproject.webapp.csproj", "{DFA75768-DBA7-43B8-A7E9-94E4A39B92F7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,7 +41,6 @@ Global
 		{3714353B-0E0D-48C6-AD9D-5DE471BFAC4E} = {0C7259B1-6692-4D92-947C-22EB2F4CA67F}
 		{7352B2C5-9FB0-44F5-BE6B-C3A9644C6020} = {0C7259B1-6692-4D92-947C-22EB2F4CA67F}
 		{0613678E-165B-4F7A-A635-46A56CA9464A} = {0C7259B1-6692-4D92-947C-22EB2F4CA67F}
-		{DFA75768-DBA7-43B8-A7E9-94E4A39B92F7} = {0C7259B1-6692-4D92-947C-22EB2F4CA67F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34BC4A72-1B71-4D03-9A95-D5404D6656B8}

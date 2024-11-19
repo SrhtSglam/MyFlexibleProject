@@ -1,0 +1,12 @@
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\bin\Debug\net7.0\myflexproject.Shared.deps.json
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\bin\Debug\net7.0\myflexproject.Shared.dll
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\bin\Debug\net7.0\myflexproject.Shared.pdb
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\myflexproject.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\myflexproject.Shared.AssemblyInfoInputs.cache
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\myflexproject.Shared.AssemblyInfo.cs
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\myflexproject.Shared.csproj.CoreCompileInputs.cache
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\myflexproject.Shared.sourcelink.json
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\myflexproject.Shared.dll
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\refint\myflexproject.Shared.dll
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\myflexproject.Shared.pdb
+C:\Users\stj067\Documents\GitHub\MyFlexibleProject\blazor\myflexproject\Shared\obj\Debug\net7.0\ref\myflexproject.Shared.dll
