@@ -1,0 +1,102 @@
+[
+    {
+        "Description": "George Orwellin distopik romanı totaliter bir rejimin baskıcı dünyasında bireyselliğin kayboluşunu anlatıyor",
+        "ImageUrl": "b1.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "1984",
+        "Price": 45.0,
+        "ProductId": 15,
+        "Url": "1984"
+    },
+    {
+        "Description": "Harper Leenin bu klasiği ırkçılık ve adalet temalarını işleyen dokunaklı bir hikaye sunuyor",
+        "ImageUrl": "b7.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Bülbülü Öldürmek",
+        "Price": 40.0,
+        "ProductId": 21,
+        "Url": "bulbulu-oldurmek"
+    },
+    {
+        "Description": "Aldous Huxleyin distopik eseri gelecekteki bir toplumda bireyselliğin nasıl yok olabileceğini sorguluyor",
+        "ImageUrl": "b6.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Cesur Yeni Dünya",
+        "Price": 55.0,
+        "ProductId": 20,
+        "Url": "cesur-yeni-dunya"
+    },
+    {
+        "Description": "Franz Kafkanın kısa romanı bir sabah aniden dev bir böceğe dönüşen Gregor Samsanın trajedisini anlatıyor",
+        "ImageUrl": "b9.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Dönüşüm",
+        "Price": 25.0,
+        "ProductId": 23,
+        "Url": "donusum"
+    },
+    {
+        "Description": "Antoine de Saint-Exuperynin çocuk kalbiyle yazılmış bu masal büyüklere yönelik derin yaşam dersleri sunuyor",
+        "ImageUrl": "b3.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Küçük Prens",
+        "Price": 30.0,
+        "ProductId": 17,
+        "Url": "kucuk-prens"
+    },
+    {
+        "Description": "Osmanlı İmparatorluğunun kuruluşundan çöküşüne kadar olan süreci ele alan kapsamlı bir çalışma Siyasi sosyal ve kültürel yönleriyle imparatorluğun dinamiklerini inceliyor",
+        "ImageUrl": "b10.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Osmanlı Tarihi",
+        "Price": 65.0,
+        "ProductId": 24,
+        "Url": "osmanli-tarihi"
+    },
+    {
+        "Description": "Leo Tolstoyun epik eseri Napolyon savaşları döneminde Rus aristokrasisinin yaşamını ve değişimini ele alıyor",
+        "ImageUrl": "b2.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Savaş ve Barış",
+        "Price": 80.0,
+        "ProductId": 16,
+        "Url": "savas-ve-baris"
+    },
+    {
+        "Description": "Paulo Coelhonun bu eseri kendi hayallerinin peşinden koşmayı ve kişisel efsaneyi bulmayı anlatıyor",
+        "ImageUrl": "b5.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Simyacı",
+        "Price": 35.0,
+        "ProductId": 19,
+        "Url": "simyaci"
+    },
+    {
+        "Description": "Fyodor Dostoyevskinin bu romanı bir cinayetin ardından gelen içsel çatışmayı ve ahlaki sorgulamayı ele alıyor",
+        "ImageUrl": "b4.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Suç ve Ceza",
+        "Price": 50.0,
+        "ProductId": 18,
+        "Url": "suc-ve-ceza"
+    },
+    {
+        "Description": "Gabriel Garcia Marquezin bu büyülü gerçekçilik örneği Buendia ailesinin hikayesi üzerinden Latin Amerikanın tarihini anlatıyor",
+        "ImageUrl": "b8.jpg",
+        "IsApproved": 1,
+        "IsHome": 1,
+        "Name": "Yüzyıllık Yalnızlık",
+        "Price": 70.0,
+        "ProductId": 22,
+        "Url": "yuzlillik-yalnizlik"
+    }
+]

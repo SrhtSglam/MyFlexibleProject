@@ -1,0 +1,4 @@
+select user.[Id], user.[UserName], user.[EmailConfirmed] 
+from AspNetUsers user 
+ 
+--where user.[EmailConfirmed] = 0

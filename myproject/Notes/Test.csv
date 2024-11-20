@@ -1,0 +1,11 @@
+ProductId,Name,Url,Price,Description,ImageUrl,IsApproved,IsHome
+15,1984,1984,45.0,George Orwellin distopik romanı totaliter bir rejimin baskıcı dünyasında bireyselliğin kayboluşunu anlatıyor,b1.jpg,1,1
+21,Bülbülü Öldürmek,bulbulu-oldurmek,40.0,Harper Leenin bu klasiği ırkçılık ve adalet temalarını işleyen dokunaklı bir hikaye sunuyor,b7.jpg,1,1
+20,Cesur Yeni Dünya,cesur-yeni-dunya,55.0,Aldous Huxleyin distopik eseri gelecekteki bir toplumda bireyselliğin nasıl yok olabileceğini sorguluyor,b6.jpg,1,1
+23,Dönüşüm,donusum,25.0,Franz Kafkanın kısa romanı bir sabah aniden dev bir böceğe dönüşen Gregor Samsanın trajedisini anlatıyor,b9.jpg,1,1
+17,Küçük Prens,kucuk-prens,30.0,Antoine de Saint-Exuperynin çocuk kalbiyle yazılmış bu masal büyüklere yönelik derin yaşam dersleri sunuyor,b3.jpg,1,1
+24,Osmanlı Tarihi,osmanli-tarihi,65.0,Osmanlı İmparatorluğunun kuruluşundan çöküşüne kadar olan süreci ele alan kapsamlı bir çalışma Siyasi sosyal ve kültürel yönleriyle imparatorluğun dinamiklerini inceliyor,b10.jpg,1,1
+16,Savaş ve Barış,savas-ve-baris,80.0,Leo Tolstoyun epik eseri Napolyon savaşları döneminde Rus aristokrasisinin yaşamını ve değişimini ele alıyor,b2.jpg,1,1
+19,Simyacı,simyaci,35.0,Paulo Coelhonun bu eseri kendi hayallerinin peşinden koşmayı ve kişisel efsaneyi bulmayı anlatıyor,b5.jpg,1,1
+18,Suç ve Ceza,suc-ve-ceza,50.0,Fyodor Dostoyevskinin bu romanı bir cinayetin ardından gelen içsel çatışmayı ve ahlaki sorgulamayı ele alıyor,b4.jpg,1,1
+22,Yüzyıllık Yalnızlık,yuzlillik-yalnizlik,70.0,Gabriel Garcia Marquezin bu büyülü gerçekçilik örneği Buendia ailesinin hikayesi üzerinden Latin Amerikanın tarihini anlatıyor,b8.jpg,1,1

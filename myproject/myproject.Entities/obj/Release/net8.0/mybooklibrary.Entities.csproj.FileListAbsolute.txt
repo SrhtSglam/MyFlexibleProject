@@ -1,0 +1,12 @@
+c:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\bin\Release\net8.0\mybooklibrary.Entities.deps.json
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\bin\Release\net8.0\mybooklibrary.Entities.dll
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\bin\Release\net8.0\mybooklibrary.Entities.pdb
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\mybooklibrary.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\mybooklibrary.Entities.AssemblyInfoInputs.cache
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\mybooklibrary.Entities.AssemblyInfo.cs
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\mybooklibrary.Entities.csproj.CoreCompileInputs.cache
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\mybooklibrary.Entities.sourcelink.json
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\mybooklibrary.Entities.dll
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\refint\mybooklibrary.Entities.dll
+C:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\mybooklibrary.Entities.pdb
+c:\Users\stj067\Documents\GitHub\MyBookLibrary\mybooklibrary\mybooklibrary.Entities\obj\Release\net8.0\ref\mybooklibrary.Entities.dll

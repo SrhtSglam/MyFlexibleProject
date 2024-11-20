@@ -1,0 +1,96 @@
+@* @model List<Category> *@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<nav class="col-md-3 col-lg-2 d-md-block bg-dark text-white expanded-md sidebar">
+    <div class="position-sticky">
+        <h3 class="text-center text-white">MyBookLibrary</h3>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="/">@_localization.GetKey("sidebar_item_home")</a>
+            </li>
+
+            <li class="nav-item">
+                <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#companiesDropdown" aria-expanded="false">
+                    @_localization.GetKey("sidebar_item_companies")
+                </button>
+                <div class="collapse" id="companiesDropdown">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="nav-link rounded">Action</a></li>
+                        <li><a href="#" class="nav-link rounded">Another action</a></li>
+                        <li><a href="#" class="nav-link rounded">Something else here</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#categoriesDropdown" aria-expanded="false">
+                    @_localization.GetKey("sidebar_item_categories")
+                </button>
+                <div class="collapse" id="categoriesDropdown">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="nav-link rounded">Action</a></li>
+                        <li><a href="#" class="nav-link rounded">Another action</a></li>
+                        <li><a href="#" class="nav-link rounded">Something else here</a></li>
+                    </ul>
+                </div>
+            </li>
+            @if(User.Identity.IsAuthenticated){
+
+                if(User.IsInRole("admin")){
+                    <li class="nav-item">
+                        <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#dropdown2" aria-expanded="false">
+                            @_localization.GetKey("sidebar_item_dashboard")
+                        </button>
+                        <div class="collapse" id="dropdown2">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="/admin/dashboard" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_control")</a></li>
+                                <li><a href="/admin/webmanager" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_webmanager")</a></li>
+                                <li><a href="/admin/categories" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_categories")</a></li>
+                                <li><a href="/admin/products" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_products")</a></li>
+                                <li><a href="/admin/userlist" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_users")</a></li>
+                                @* <li>
+                                    <a class="nav-link text-white rounded dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#dropdown2-1" aria-expanded="false">
+                                        @_localization.GetKey("sidebar_item_dashboard")
+                                    </a>
+                                    <div class="collapse" id="dropdown2-1">
+                                        <ul class="btn-toggle-nav list-styled text fw-normal pb-1 small">
+                                            <li><a href="/admin/dashboard" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_control")</a></li>
+                                            <li><a href="/admin/categories" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_categories")</a></li>
+                                            <li><a href="/admin/products" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_products")</a></li>
+                                            <li><a href="/admin/userlist" class="nav-link rounded">@_localization.GetKey("sidebar_item_dashboard_users")</a></li>
+                                        </ul>
+                                    </div>
+                                </li> *@
+                            </ul>
+                        </div>
+                    </li>
+                }
+            }
+            <hr>
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center link-white text-decoration-none" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/SrhtSglam.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong class="text-white">SrhtSglam</strong>
+                </a>
+                @if(User.Identity.IsAuthenticated){
+                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                        <li><a class="dropdown-item" href="/account/manage">@_localization.GetKey("sidebar_item_account_profile")</a></li>
+                        @* <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li> *@
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/account/logout">@_localization.GetKey("sidebar_item_account_logout")</a></li>
+                    </ul>
+                }
+                else{
+                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                        <li><a class="dropdown-item" href="/account/login">@_localization.GetKey("sidebar_item_account_login")</a></li>
+                        <li><a class="dropdown-item" href="/account/register">@_localization.GetKey("sidebar_item_account_register")</a></li>
+                        @* <li><a class="dropdown-item" href="#">Settings</a></li> *@
+                        @* <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li> *@
+                    </ul>
+                }
+            </div>
+        </ul>
+    </div>
+</nav>

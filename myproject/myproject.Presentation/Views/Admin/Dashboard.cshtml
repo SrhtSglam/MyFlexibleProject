@@ -1,0 +1,154 @@
+@* <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> *@
+
+<div class="container-fluid mt-4">
+    <div class="row">
+        <!-- First Row: Statistics Cards -->
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header">Toplam Satış</div>
+                <div class="card-body">
+                    <h5 class="card-title display-4">$50,000</h5>
+                    <p class="card-text">Toplam satışlar bu ay.</p>
+                    <a href="#" class="btn btn-primary">Detaylar</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Güncelleme: 2 gün önce
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header">Ziyaretçiler</div>
+                <div class="card-body">
+                    <h5 class="card-title display-4">1,200</h5>
+                    <p class="card-text">Son 24 saat içindeki ziyaretçi sayısı.</p>
+                    <a href="#" class="btn btn-success">Detaylar</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Güncelleme: 1 gün önce
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header">Siparişler</div>
+                <div class="card-body">
+                    <h5 class="card-title display-4">300</h5>
+                    <p class="card-text">Bugün işlenen toplam sipariş sayısı.</p>
+                    <a href="#" class="btn btn-warning">Detaylar</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Güncelleme: Bugün
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header">Kâr</div>
+                <div class="card-body">
+                    <h5 class="card-title display-4">$20,000</h5>
+                    <p class="card-text">Bugün elde edilen toplam kâr.</p>
+                    <a href="#" class="btn btn-danger">Detaylar</a>
+                </div>
+                <div class="card-footer text-muted">
+                    Güncelleme: 3 saat önce
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Second Row: Notifications and Charts -->
+    <div class="row">
+        <!-- Notifications Card -->
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    <i class="bi bi-bell"></i> Bildirimler
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Yeni sipariş alındı
+                            <span class="badge badge-custom badge-pill">Yeni</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Ziyaretçi sayısında artış
+                            <span class="badge badge-custom badge-pill">Önemli</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Yeni ürün ekledi
+                            <span class="badge badge-custom badge-pill">Güncel</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer text-muted">
+                    Güncelleme: 1 saat önce
+                </div>
+            </div>
+        </div>
+
+        <!-- Chart Placeholder -->
+        <div class="col-xl-8 col-lg-6 col-md-12 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    <i class="bi bi-graph-up"></i> Satış Grafiği
+                </div>
+                <div class="card-body">
+                    <div class="text-center">
+                        <h5>Grafik yüklenecek...</h5>
+                        <p>Bu alana bir grafik yerleştirilebilir (örneğin, Chart.js veya başka bir kütüphane kullanarak).</p>
+                    </div>
+                    @* <canvas class="my-4 w-100 chartjs-render-monitor" id="myChart" width="804" height="338" style="display: block; height: 169px; width: 402px;"></canvas> *@
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third Row: Activity Table -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    Son Aktivite
+                </div>
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Kullanıcı</th>
+                                <th scope="col">Aksiyon</th>
+                                <th scope="col">Tarih</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>John Doe</td>
+                                <td>Yeni ürün ekledi</td>
+                                <td>2024-11-20</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jane Smith</td>
+                                <td>Sipariş durumu güncellendi</td>
+                                <td>2024-11-19</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Mike Ross</td>
+                                <td>Çıkış yaptı</td>
+                                <td>2024-11-18</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
