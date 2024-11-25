@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\favicon-32x32.png",
       "PackagePath": "staticwebassets\\favicon-32x32.png"
     },
