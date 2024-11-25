@@ -5,10 +5,9 @@
     <div class="row">
         <div class="col-md-8">
             <div class="username">@User.Identity.Name</div>
-            <div class="password">**********</div>
+            <div class="password">********</div>
             <div class="islogin">@_localization.GetKey("accont_body_islogin") @User.Identity.IsAuthenticated</div>
             <div class="logintype">@_localization.GetKey("accont_body_logintype") @User.Identity.AuthenticationType</div>
-            <div class="logintype">@_localization.GetKey("accont_body_logintype") @User.Identity.GetType()</div>
         </div>
         <div class="col-md-4 text-right">
             <img src="~/img/pp.jpg" alt="Profil Fotoğrafı" class="profile-photo rounded-circle">
@@ -19,6 +18,13 @@
         <button class="btn btn-primary">@_localization.GetKey("accont_body_passwordchange")</button>
         <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#accountDeleteModal">@_localization.GetKey("accont_body_deleteaccount")</button>
         <button class="btn btn-secondary">@_localization.GetKey("accont_body_help")</button>
+    </div>
+
+    <div class="mt-4">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-dark">Dark Mode</button>
+            <button type="button" class="btn btn-light">Light Mod</button>
+        </div>
     </div>
 
     <!-- Modal -->

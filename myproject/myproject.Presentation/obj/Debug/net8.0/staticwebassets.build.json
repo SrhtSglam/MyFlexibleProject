@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dHwidH9ixlskzMVyacWBaaywzMzIB+T1ssLGuzpw09M=",
+  "Hash": "xZJgMb1t68O6wLqQKCJxzSeXjWA/td2nH/gc8GuCH4U=",
   "Source": "myproject.Presentation",
   "BasePath": "_content/myproject.Presentation",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\css\\style.css",
       "SourceId": "myproject.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\",
       "BasePath": "_content/myproject.Presentation",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\favicon-32x32.png",
