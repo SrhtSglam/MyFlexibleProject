@@ -20,10 +20,20 @@
     "en-US": "Home",
     "tr-TR": "Ana sayfa"
   },
-  "sidebar_item_categories": {
-    "en-US": "Categories",
-    "tr-TR": "Kategoriler"
+  
+  "sidebar_item_categories1": {
+    "en-US": "Personal Electronics",
+    "tr-TR": "Kişisel Elektronik"
   },
+  "sidebar_item_categories2": {
+    "en-US": "Home Electronics",
+    "tr-TR": "Ev Elektroniği"
+  },
+  "sidebar_item_categories3": {
+    "en-US": "Office & Imaging",
+    "tr-TR": "Ofis ve Görüntüleme"
+  },
+
   "sidebar_item_dashboard_webmanager": {
     "en-US": "Web management",
     "tr-TR": "Site yönetimi"
@@ -114,5 +124,14 @@
   "footer_text": {
     "en-US": "© 2024 MyBookLibrary. All rights reserved. | Privacy Policy | Terms of Use | Contact: info@mybooklibrary.com",
     "tr-TR": "© 2024 MyBookLibrary. Tüm hakları saklıdır. | Gizlilik Politikası | Kullanım Şartları | İletişim: info@mybooklibrary.com"
+  },
+
+  "product_details_button": {
+    "en-US": "Details",
+    "tr-TR": "Detaylar"
+  },
+  "product_addtocart_button": {
+    "en-US": "Add To Cart",
+    "tr-TR": "Sepete Ekle"
   }
 }

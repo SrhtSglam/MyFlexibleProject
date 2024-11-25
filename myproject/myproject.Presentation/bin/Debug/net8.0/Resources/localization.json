@@ -114,5 +114,14 @@
   "footer_text": {
     "en-US": "© 2024 MyBookLibrary. All rights reserved. | Privacy Policy | Terms of Use | Contact: info@mybooklibrary.com",
     "tr-TR": "© 2024 MyBookLibrary. Tüm hakları saklıdır. | Gizlilik Politikası | Kullanım Şartları | İletişim: info@mybooklibrary.com"
+  },
+
+  "product_details_button": {
+    "en-US": "Details",
+    "tr-TR": "Detaylar"
+  },
+  "product_addtocart_button": {
+    "en-US": "Add To Cart",
+    "tr-TR": "Sepete Ekle"
   }
 }

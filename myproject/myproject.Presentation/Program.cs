@@ -122,15 +122,6 @@ app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseRequestLocalization(app.Services.GetRequiredService<IOptions<RequestLocalizationOptions>>().Value);
 
-#region Static Files (/modules)
-    app.UseStaticFiles(new StaticFileOptions
-    {
-        FileProvider = new PhysicalFileProvider(
-            Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/node_modules")),
-        RequestPath = "/modules"
-    });
-#endregion
-
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();

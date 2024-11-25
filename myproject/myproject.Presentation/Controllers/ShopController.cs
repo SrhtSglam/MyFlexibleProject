@@ -17,7 +17,7 @@ namespace myproject.Presentation.Controllers
         // localhost/products/telefon?page=1
         public IActionResult List(string category,int page=1)
         {
-            const int pageSize=6;
+            const int pageSize=8;
             var productViewModel = new ProductListViewModel()
             {
                 PageInfo = new PageInfo()
