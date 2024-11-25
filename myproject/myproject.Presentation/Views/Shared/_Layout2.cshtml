@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    @RenderSection("Css", false)
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="icon" type="image/x-icon" href="~/favicon-32x32.png" />
+    <title>MyBookLibrary</title>
+</head>
+
+<body>
+    @await Html.PartialAsync("_businessads")
+    @await Html.PartialAsync("_navbar")
+
+    <div class="container-fluid">
+        <div class="row">
+        @await Html.PartialAsync("_sidebar")
+
+            <!-- Main Content -->
+            <main class="col-md-9 my-2 ms-sm-auto col-lg-10 px-4">
+                <div class="container">
+
+                    @if (TempData["message"] != null)
+                    {
+                        <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))" />
+                    }
+
+                    @RenderBody()
+                </div>
+            </main>
+        </div>
+    </div>
+
+    @await Html.PartialAsync("_footer")
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+
+</html>

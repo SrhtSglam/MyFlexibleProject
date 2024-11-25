@@ -4,7 +4,7 @@
 
 <nav class="col-md-3 col-lg-2 d-md-block bg-dark text-white expanded-md sidebar">
     <div class="position-sticky">
-        <h3 class="text-center text-white">MyProject</h3>
+        <h3 class="text-center text-white">MyBookLibrary</h3>
         <ul class="nav flex-column">
             <li class="nav-item">
                 <a class="nav-link text-white" href="/">@_localization.GetKey("sidebar_item_home")</a>
@@ -22,19 +22,19 @@
                     </ul>
                 </div>
             </li>
+            <li class="nav-item">
+                <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#categoriesDropdown" aria-expanded="false">
+                    @_localization.GetKey("sidebar_item_categories")
+                </button>
+                <div class="collapse" id="categoriesDropdown">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="nav-link rounded">Action</a></li>
+                        <li><a href="#" class="nav-link rounded">Another action</a></li>
+                        <li><a href="#" class="nav-link rounded">Something else here</a></li>
+                    </ul>
+                </div>
+            </li>
             @if(User.Identity.IsAuthenticated){
-                <li class="nav-item">
-                    <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#categoriesDropdown" aria-expanded="false">
-                        @_localization.GetKey("sidebar_item_categories")
-                    </button>
-                    <div class="collapse" id="categoriesDropdown">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li><a href="#" class="nav-link rounded">Sub Category1</a></li>
-                            <li><a href="#" class="nav-link rounded">Sub Category2</a></li>
-                            <li><a href="#" class="nav-link rounded">Sub Category3</a></li>
-                        </ul>
-                    </div>
-                </li>
 
                 if(User.IsInRole("admin")){
                     <li class="nav-item">
