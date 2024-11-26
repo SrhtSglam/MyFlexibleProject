@@ -21,6 +21,18 @@ namespace myproject.Data.Concrete.EfCore
             }
         }
 
+        public Product GetByIdWithSubCategories(int id)
+        {
+            using(var context = new ShopContext())
+            {
+                return context.Products
+                                .Where(i=>i.ProductId == id)
+                                .Include(i=>i.ProductCategories)
+                                .ThenInclude(i=>i.SubCategory)
+                                .FirstOrDefault();
+            }
+        }
+
         public int GetCountByCategory(string category)
         {
            using (var context = new ShopContext())
@@ -38,6 +50,25 @@ namespace myproject.Data.Concrete.EfCore
                 return products.Count();
             }
         }
+
+        public int GetCountBySubCategory(string subcategory)
+        {
+           using (var context = new ShopContext())
+            {
+                var products = context.Products.Where(i=>i.IsApproved).AsQueryable();
+
+                if(!string.IsNullOrEmpty(subcategory))
+                {
+                    products = products
+                                    .Include(i=>i.ProductCategories)
+                                    .ThenInclude(i=>i.SubCategory)
+                                    .Where(i=>i.ProductCategories.Any(a=>a.SubCategory.Url == subcategory));
+                }
+
+                return products.Count();
+            }
+        }
+
         public List<Product> GetHomePageProducts()
         {
             using (var context = new ShopContext())
@@ -78,13 +109,35 @@ namespace myproject.Data.Concrete.EfCore
                 return products.Skip((page-1)*pageSize).Take(pageSize).ToList();
             }
         }
+        public List<Product> GetProductsBySubCategory(string name,int page,int pageSize)
+        {
+            using (var context = new ShopContext())
+            {
+                var products = context
+                    .Products
+                    .Where(i=>i.IsApproved)
+                    .AsQueryable();
+
+                if(!string.IsNullOrEmpty(name))
+                {
+                    products = products
+                                    .Include(i=>i.ProductCategories)
+                                    .ThenInclude(i=>i.SubCategory)
+                                    .Where(i=>i.ProductCategories.Any(a=>a.SubCategory.Url == name));
+                }
+
+                return products.Skip((page-1)*pageSize).Take(pageSize).ToList();
+            }
+        }
+
         public List<Product> GetSearchResult(string searchString)
         {
             using (var context = new ShopContext())
             {
                 var products = context
                     .Products
-                    .Where(i=>i.IsApproved && (i.Name.ToLower().Contains(searchString.ToLower()) || i.Description.ToLower().Contains(searchString.ToLower())))
+                    .Where(i=>i.IsApproved && (i.Name.ToLower().Contains(searchString.ToLower()) || i.Description.ToLower().Contains(searchString.ToLower()) || 
+                    i.Company.ToLower().Contains(searchString.ToLower()) || i.Description.ToLower().Contains(searchString.ToLower())))
                     .AsQueryable();
 
                 return products.ToList();

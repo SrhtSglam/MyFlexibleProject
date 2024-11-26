@@ -15,19 +15,19 @@ namespace myproject.Presentation.Controllers
         }
 
         // localhost/products/telefon?page=1
-        public IActionResult List(string category,int page=1)
+        public IActionResult List(string subcategory,int page=1)
         {
             const int pageSize=8;
             var productViewModel = new ProductListViewModel()
             {
                 PageInfo = new PageInfo()
                 {
-                    TotalItems = _productService.GetCountByCategory(category),
+                    TotalItems = _productService.GetCountBySubCategory(subcategory),
                     CurrentPage = page,
                     ItemsPerPage = pageSize,
-                    CurrentCategory = category
+                    CurrentCategory = subcategory
                 },
-                Products = _productService.GetProductsByCategory(category,page,pageSize)
+                Products = _productService.GetProductsBySubCategory(subcategory,page,pageSize)
             };
 
             return View(productViewModel);
@@ -47,7 +47,8 @@ namespace myproject.Presentation.Controllers
             }
             return View(new ProductDetailModel{
                 Product = product,
-                Categories = product.ProductCategories.Select(i=>i.Category).ToList()
+                Categories = product.ProductCategories.Select(i=>i.Category).ToList(),
+                SubCategories = product.ProductCategories.Select(i=>i.SubCategory).ToList()
             });
         }
 

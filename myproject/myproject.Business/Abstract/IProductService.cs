@@ -9,7 +9,9 @@ namespace myproject.Business.Abstract
         Product GetByIdWithCategories(int id);
         Product GetProductDetails(string url);
         List<Product> GetProductsByCategory(string name,int page,int pageSize);
+        List<Product> GetProductsBySubCategory(string name,int page,int pageSize);
         int GetCountByCategory(string category);
+        int GetCountBySubCategory(string subcategory);
         
         List<Product> GetHomePageProducts();
         List<Product> GetSearchResult(string searchString);

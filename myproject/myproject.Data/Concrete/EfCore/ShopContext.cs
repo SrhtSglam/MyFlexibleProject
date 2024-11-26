@@ -14,6 +14,7 @@ namespace myproject.Data.Concrete.EfCore
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<Cart> Cart { get; set; }
         // public DbSet<Order> Order { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
@@ -39,7 +40,7 @@ namespace myproject.Data.Concrete.EfCore
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ProductCategory>()
-                .HasKey(c => new { c.CategoryId, c.ProductId });
+                .HasKey(c => new { c.CategoryId, c.ProductId, c.SubCategoryId });
 
             base.OnModelCreating(modelBuilder);
         }

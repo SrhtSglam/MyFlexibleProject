@@ -1,8 +1,24 @@
  @model List<Category>
  
- <div class="list-group">
+
+@foreach (var category in Model)
+{
+    <li class="nav-item">
+        <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle"
+            data-bs-toggle="collapse" data-bs-target="#personalcategoriesdropdown" aria-expanded="false">
+            @_localization.GetKey("sidebar_item_categories1")
+        </button>
+        <div class="collapse" id="personalcategoriesdropdown">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                @await Component.InvokeAsync("Categories")
+            </ul>
+        </div>
+    </li>
+}
+
+ @* <div class="list-group">
     @foreach (var category in Model)
     {
         <a href="#" class="list-group-item list-group-item-action">@category.Name</a>
     }
-</div>   
+</div>    *@

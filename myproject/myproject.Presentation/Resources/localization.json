@@ -130,6 +130,10 @@
     "en-US": "Details",
     "tr-TR": "Detaylar"
   },
+  "product_details_properties": {
+    "en-US": "Properties & Description",
+    "tr-TR": "Özellikler ve Açıklama"
+  },
   "product_addtocart_button": {
     "en-US": "Add To Cart",
     "tr-TR": "Sepete Ekle"

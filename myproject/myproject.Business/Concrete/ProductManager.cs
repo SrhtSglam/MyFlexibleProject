@@ -45,9 +45,19 @@ namespace myproject.Business.Concrete
             return _productRepository.GetByIdWithCategories(id);
         }
 
+        public Product GetByIdWithSubCategories(int id)
+        {
+            return _productRepository.GetByIdWithSubCategories(id);
+        }
+
         public int GetCountByCategory(string category)
         {
             return _productRepository.GetCountByCategory(category);
+        }
+
+        public int GetCountBySubCategory(string category)
+        {
+            return _productRepository.GetCountBySubCategory(category);
         }
 
         public List<Product> GetHomePageProducts()
@@ -63,6 +73,11 @@ namespace myproject.Business.Concrete
         public List<Product> GetProductsByCategory(string name,int page,int pageSize)
         {
             return _productRepository.GetProductsByCategory(name,page,pageSize);
+        }
+
+        public List<Product> GetProductsBySubCategory(string name,int page,int pageSize)
+        {
+            return _productRepository.GetProductsBySubCategory(name,page,pageSize);
         }
 
         public List<Product> GetSearchResult(string searchString)

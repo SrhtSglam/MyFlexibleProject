@@ -87,11 +87,13 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 // Add services for repositories and managers
 builder.Services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
+builder.Services.AddScoped<ISubCategoryRepository, EfCoreSubCategoryRepository>();
 builder.Services.AddScoped<IProductRepository, EfCoreProductRepository>();
 builder.Services.AddScoped<ICartRepository, EfCoreCartRepository>();
 
 builder.Services.AddScoped<IProductService, ProductManager>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
+builder.Services.AddScoped<ISubCategoryService, SubCategoryManager>();
 builder.Services.AddScoped<ICartService, CartManager>();
 
 builder.Services.AddScoped<IEmailSender, SmtpEmailSender>(i =>
@@ -244,7 +246,7 @@ app.UseAuthorization();
 
     app.MapControllerRoute(
         name: "products",
-        pattern: "products/{category?}",
+        pattern: "products/{subcategory?}",
         defaults: new { controller = "Shop", action = "list" }
     );
 

@@ -7,5 +7,6 @@ namespace myproject.Presentation.Models
     {
         public Product Product { get; set; }
         public List<Category> Categories { get; set; }
+        public List<SubCategory> SubCategories { get; set; }
     }
 }

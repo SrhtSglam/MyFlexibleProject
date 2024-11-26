@@ -38,9 +38,9 @@ body {
   position: absolute;
   height: 100%;
 }
-
-.card-div{
-}
+/* a:link, a:hover, a:visited, a:active{
+  color: white;
+} */
 
 @media (min-width: 768px) {
   html {

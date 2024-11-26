@@ -9,51 +9,9 @@
             <li class="nav-item">
                 <a class="nav-link text-white" href="/">@_localization.GetKey("sidebar_item_home")</a>
             </li>
+            @await Component.InvokeAsync("Categories")
 
-            <li class="nav-item">
-                <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#testdropdown" aria-expanded="false">
-                    @_localization.GetKey("sidebar_item_companies")
-                </button>
-                <div class="collapse" id="testdropdown">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="nav-link rounded">Action</a></li>
-                        <li><a href="#" class="nav-link rounded">Another action</a></li>
-                        <li><a href="#" class="nav-link rounded">Something else here</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="nav-item">
-                <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#personalcategoriesdropdown" aria-expanded="false">
-                    @_localization.GetKey("sidebar_item_categories1")
-                </button>
-                <div class="collapse" id="personalcategoriesdropdown">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        @await Component.InvokeAsync("Categories")
-                    </ul>
-                </div>
-            </li>
-            <li class="nav-item">
-                <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#homecategoriesdropdown" aria-expanded="false">
-                    @_localization.GetKey("sidebar_item_categories2")
-                </button>
-                <div class="collapse" id="homecategoriesdropdown">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        @await Component.InvokeAsync("Categories")
-                    </ul>
-                </div>
-            </li>
-            <li class="nav-item">
-                <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#officecategoriesdropdown" aria-expanded="false">
-                    @_localization.GetKey("sidebar_item_categories3")
-                </button>
-                <div class="collapse" id="officecategoriesdropdown">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        @await Component.InvokeAsync("Categories")
-                    </ul>
-                </div>
-            </li>
             @if(User.Identity.IsAuthenticated){
-
                 if(User.IsInRole("admin")){
                     <li class="nav-item">
                         <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#dropdown2" aria-expanded="false">
