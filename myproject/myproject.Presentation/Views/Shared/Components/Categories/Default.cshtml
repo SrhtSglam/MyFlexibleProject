@@ -1,15 +1,31 @@
 @model List<Category>
-@foreach (var category in Model)
+@foreach (var item in Model)
 {
     <li class="nav-item">
         <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle"
-            data-bs-toggle="collapse" data-bs-target="#@category.Name-categoriesdropdown" aria-expanded="false">
-            @category.Name
+            data-bs-toggle="collapse" data-bs-target="#@item.Name-categoriesdropdown" aria-expanded="false">
+            @item.Name
         </button>
-        <div class="collapse" id="@category.Name-categoriesdropdown">
+        <div class="collapse" id="@item.Name-categoriesdropdown">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                @await Component.InvokeAsync("SubCategories")
+                @await Component.InvokeAsync("SubCategories", new {categoryId = item.CategoryId})
             </ul>
         </div>
     </li>
 }
+
+@* @model List<Category>
+@foreach (var item in Model)
+{
+    <li class="nav-item">
+        <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle"
+            data-bs-toggle="collapse" data-bs-target="#@item.Name-categoriesdropdown" aria-expanded="false">
+            @item.Name
+        </button>
+        <div class="collapse" id="@item.Name-categoriesdropdown">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                @await Component.InvokeAsync("SubCategories", new {categoryId = item.CategoryId})
+            </ul>
+        </div>
+    </li>
+} *@

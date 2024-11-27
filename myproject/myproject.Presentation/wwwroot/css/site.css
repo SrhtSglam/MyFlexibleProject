@@ -12,8 +12,11 @@ html {
   min-height: 100%;
 }
 
-body {
-  
+.carouselitemdiv{
+  width: 30px; 
+  height: 30px; 
+  object-fit: cover; 
+  margin-right: 10px;
 }
 
 

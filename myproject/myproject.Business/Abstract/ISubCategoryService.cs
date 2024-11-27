@@ -6,6 +6,7 @@ namespace myproject.Business.Abstract
     public interface ISubCategoryService: IValidator<SubCategory>
     {
         SubCategory GetById(int id);
+        // SubCategory GetByCategoryId(int id);
 
         SubCategory GetByIdWithProducts(int subCategoryId);
 

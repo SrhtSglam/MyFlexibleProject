@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AdIATK08wm/R07AOREY2gZetu3N0Ze5Dt0Vv6glrqN8=",
+  "Hash": "DpDhMXry/ViuFRlu1OEaGXelcvNhA2NHzyYTKclIf5s=",
   "Source": "myproject.Presentation",
   "BasePath": "_content/myproject.Presentation",
   "Mode": "Default",
@@ -452,6 +452,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\carousel\\wp2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\guest.png",
+      "SourceId": "myproject.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\",
+      "BasePath": "_content/myproject.Presentation",
+      "RelativePath": "img/guest.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\guest.png"
     },
     {
       "Identity": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\indir.png",
