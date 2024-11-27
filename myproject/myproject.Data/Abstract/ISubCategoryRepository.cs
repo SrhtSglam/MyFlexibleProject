@@ -7,6 +7,7 @@ namespace myproject.Data.Abstract
     {
         SubCategory GetByIdWithProducts(int subCategoryId);
 
+
         void DeleteFromSubCategory(int productId,int subCategoryId);
     }
 }

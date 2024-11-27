@@ -46,4 +46,14 @@ body {
   html {
     font-size: 16px;
   }
+
+  .sidebardiv{
+    visibility: visible;
+  }
+}
+
+@media (max-width: 500px) {
+  .sidebardiv{
+    visibility: hidden;
+  }
 }

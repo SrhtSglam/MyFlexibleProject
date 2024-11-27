@@ -28,6 +28,7 @@
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
+                @* @await Component.InvokeAsync("Categories") *@
                 @if (User.Identity.IsAuthenticated)
                 {
                     <li class="nav-item">
@@ -43,6 +44,7 @@
                 }
             </ul>
             <partial name="_search"/>
+    using SQLitePCL;
         </div>
 
     </div>

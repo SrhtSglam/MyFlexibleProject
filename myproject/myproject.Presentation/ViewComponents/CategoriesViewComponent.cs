@@ -4,19 +4,22 @@ using myproject.Business.Abstract;
 
 namespace myproject.Presentation.ViewComponents
 {
-    public class CategoriesViewComponent:ViewComponent
+    public class CategoriesViewComponent : ViewComponent
     {
         private ICategoryService _categoryService;
+
         public CategoriesViewComponent(ICategoryService categoryService)
         {
-            this._categoryService=categoryService;
+            this._categoryService = categoryService;
         }
+
         public IViewComponentResult Invoke()
         {
-            if (RouteData.Values["category"]!=null)
+            if (RouteData.Values["category"] != null)
                 ViewBag.SelectedCategory = RouteData?.Values["category"];
-                
-            return View(_categoryService.GetAll());
+            
+            var categories = _categoryService.GetAll();
+            return View(categories);
         }
     }
 }

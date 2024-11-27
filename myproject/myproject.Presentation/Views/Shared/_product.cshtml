@@ -3,7 +3,7 @@
 <style>
     .card {
         min-height: 400px; /* Kartın minimum yüksekliği */
-        min-width: 100%;
+        min-width: 105%;
         height: 100%; /* Kartın yüksekliği tam olacak */
         margin-bottom: 15px;
     }
@@ -40,16 +40,18 @@
             </small>
         </div>
         <div class="card-footer text-center">
-            <a asp-controller="shop" asp-action="Details" asp-route-url="@Model.Url" class="btn btn-primary btn-sm">@_localization.GetKey("product_details_button")</a>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <a asp-controller="shop" asp-action="Details" asp-route-url="@Model.Url" class="btn btn-primary btn-sm">@_localization.GetKey("product_details_button")</a>
 
             @if(User.Identity.IsAuthenticated)
             {
                 <form asp-controller="Cart" asp-action="AddToCart" method="POST" style="display: inline;">
                     <input type="hidden" name="productId" value="@Model.ProductId">
                     <input type="hidden" name="quantity" value="1">
-                    <button type="submit" class="btn btn-primary btn-sm">@_localization.GetKey("product_addtocart_button")</button>
+                    <button type="submit" class="btn btn-primary btn-sm mx-1">@_localization.GetKey("product_addtocart_button")</button>
                 </form>
             }
+            </div>
         </div>
     </div>
 </div>

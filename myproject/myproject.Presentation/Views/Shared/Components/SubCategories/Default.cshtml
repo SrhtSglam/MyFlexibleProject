@@ -1,9 +1,4 @@
 @model List<SubCategory>
-@* @foreach (var subcategory in Model)
-{
-    <li><a asp-controller="Shop" asp-action="List" asp-route-subcategory="@subcategory.Url"
-            class="nav-link rounded @(ViewBag.SelectedCategory == subcategory.Url?"active":"")">@subcategory.Name</a></li>
-} *@
 
 @for (int i = 0; i < Model.Count; i++)
 {
