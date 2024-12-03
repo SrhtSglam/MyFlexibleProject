@@ -13,10 +13,10 @@ namespace myproject.Data.Concrete.EfCore
     public class ShopContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
+        public DbSet<ProductDetail> ProductDetails { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<Cart> Cart { get; set; }
-        // public DbSet<Order> Order { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Orders> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
@@ -41,6 +41,17 @@ namespace myproject.Data.Concrete.EfCore
         {
             modelBuilder.Entity<ProductCategory>()
                 .HasKey(c => new { c.CategoryId, c.ProductId, c.SubCategoryId });
+
+            modelBuilder.Entity<ProductDetail>()
+                .HasKey(i => i.Id);
+
+            // modelBuilder.Entity<Product>()
+            //             .HasMany(i => i.ProductDetails) 
+            //             .WithOne(pd => pd.Product)         
+            //             .HasForeignKey(pd => pd.ProductId);
+
+            // modelBuilder.Entity<Product>() //Tablo olarak belirtir
+            // .ToTable("Products");
 
             base.OnModelCreating(modelBuilder);
         }

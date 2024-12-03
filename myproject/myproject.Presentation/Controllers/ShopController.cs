@@ -1,6 +1,8 @@
+using System.CodeDom.Compiler;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using myproject.Business.Abstract;
+using myproject.Data.Concrete.EfCore;
 using myproject.Entities;
 using myproject.Presentation.Models;
 
@@ -40,6 +42,7 @@ namespace myproject.Presentation.Controllers
                 return NotFound();
             }
             Product product = _productService.GetProductDetails(url);
+            // List<ProductDetail> productDetails = GetProductDetails(1);
 
             if(product==null)
             {
@@ -47,10 +50,17 @@ namespace myproject.Presentation.Controllers
             }
             return View(new ProductDetailModel{
                 Product = product,
+                // ProductDetails = productDetails,
                 Categories = product.ProductCategories.Select(i=>i.Category).ToList(),
                 SubCategories = product.ProductCategories.Select(i=>i.SubCategory).ToList()
             });
         }
+
+        // private List<ProductDetail> GetProductDetails(int id){
+        //     using(var context = new ShopContext()){
+        //         return context.ProductDetails.Where(i=>i.ProductId == id).ToList();
+        //     }
+        // }
 
         public IActionResult Search(string q)
         {

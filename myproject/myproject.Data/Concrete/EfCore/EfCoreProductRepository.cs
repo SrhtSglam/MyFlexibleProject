@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using Microsoft.EntityFrameworkCore;
 using myproject.Data.Abstract;
 using myproject.Entities;
@@ -69,6 +70,7 @@ namespace myproject.Data.Concrete.EfCore
             }
         }
 
+
         public List<Product> GetHomePageProducts()
         {
             using (var context = new ShopContext())
@@ -81,20 +83,22 @@ namespace myproject.Data.Concrete.EfCore
         {
             using (var context = new ShopContext())
             {
-                return context.Products
+                var product = context.Products
                                 .Where(i=>i.Url==url)
                                 .Include(i=>i.ProductCategories)
                                 .ThenInclude(i=>i.Category)
+                                .Include(i=>i.ProductDetails)
+                                // .Join(context.ProductDetails, j=> j.ProductId, x=> x.ProductId, (j, x) => new{j, x})
                                 .FirstOrDefault();
 
+                return product;
             }
         }
         public List<Product> GetProductsByCategory(string name,int page,int pageSize)
         {
             using (var context = new ShopContext())
             {
-                var products = context
-                    .Products
+                var products = context.Products
                     .Where(i=>i.IsApproved)
                     .AsQueryable();
 

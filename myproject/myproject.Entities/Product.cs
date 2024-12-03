@@ -14,7 +14,7 @@ namespace myproject.Entities
 
         public bool IsApproved { get; set; }
         public bool IsHome { get; set; }
-
         public List<ProductCategory> ProductCategories { get; set; }
+        public List<ProductDetail> ProductDetails { get; set; }
     }
 }
