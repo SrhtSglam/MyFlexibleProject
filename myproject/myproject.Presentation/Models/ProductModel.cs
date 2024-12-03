@@ -18,7 +18,7 @@ namespace myproject.Presentation.Models
       
         // [Required(ErrorMessage="Price zorunlu bir alan.")]  
         // [Range(1,10000,ErrorMessage="Price için 1-10000 arasında değer girmelisiniz.")]
-        public double? Price { get; set; } 
+        public decimal? Price { get; set; } 
       
         [Required(ErrorMessage="Description zorunlu bir alan.")]
         [StringLength(250,MinimumLength=5,ErrorMessage="Description 5-250 karakter aralığında olmalıdır.")]

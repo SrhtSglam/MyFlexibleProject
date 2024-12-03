@@ -24,7 +24,6 @@ html {
   min-height: 500px;
 } */
 
-
 .footerdiv{
   position: fixed;
   bottom: 0;
@@ -41,9 +40,10 @@ html {
   position: absolute;
   height: 100%;
 }
-/* a:link, a:hover, a:visited, a:active{
-  color: white;
-} */
+
+#dropdown2 > ul{
+  list-style: none;
+}
 
 @media (min-width: 768px) {
   html {

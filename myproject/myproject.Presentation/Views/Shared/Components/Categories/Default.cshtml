@@ -7,9 +7,7 @@
             @item.Name
         </button>
         <div class="collapse" id="@item.Name-categoriesdropdown">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                @await Component.InvokeAsync("SubCategories", new {categoryId = item.CategoryId})
-            </ul>
+            @await Component.InvokeAsync("SubCategories", new {categoryId = item.CategoryId})
         </div>
     </li>
 }

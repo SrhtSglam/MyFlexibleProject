@@ -1,0 +1,1 @@
+MFP / {kategori id} / {subcategory id} / {ürün id}

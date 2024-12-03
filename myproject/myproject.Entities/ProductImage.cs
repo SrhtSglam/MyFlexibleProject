@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace myproject.Entities
 {
-    public class ProductDetail
+    public class ProductImage
     {
         public int Id { get; set; }
         public int ProductId { get; set; }

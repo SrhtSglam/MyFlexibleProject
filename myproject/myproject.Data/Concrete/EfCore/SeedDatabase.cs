@@ -34,11 +34,11 @@ namespace myproject.Data.Concrete.EfCore
         };
 
         private static Product[] Products = {
-            new Product(){Name="1984",Url="1984",Price=45.0,ImageUrl="b1.jpg",Description="George Orwellin distopik romanı totaliter bir rejimin baskıcı dünyasında bireyselliğin kayboluşunu anlatıyor", IsApproved=true, IsHome=true},
-            new Product(){Name="Savaş ve Barış",Url="savas-ve-baris",Price=80.0,ImageUrl="b2.jpg",Description="Leo Tolstoyun epik eseri Napolyon savaşları döneminde Rus aristokrasisinin yaşamını ve değişimini ele alıyor", IsApproved=true, IsHome=true},
-            new Product(){Name="Küçük Prens",Url="kucuk-prens",Price=30.0,ImageUrl="b3.jpg",Description="Antoine de Saint-Exuperynin çocuk kalbiyle yazılmış bu masal büyüklere yönelik derin yaşam dersleri sunuyor", IsApproved=true, IsHome=true},
-            new Product(){Name="Suç ve Ceza",Url="suc-ve-ceza",Price=50.0,ImageUrl="b4.jpg",Description="Fyodor Dostoyevskinin bu romanı bir cinayetin ardından gelen içsel çatışmayı ve ahlaki sorgulamayı ele alıyor", IsApproved=true, IsHome=true},
-            new Product(){Name="Simyacı",Url="simyaci",Price=35.0,ImageUrl="b5.jpg",Description="Paulo Coelhonun bu eseri kendi hayallerinin peşinden koşmayı ve kişisel efsaneyi bulmayı anlatıyor", IsApproved=true, IsHome=true},
+            new Product(){Name="1984",Url="1984",Price=45,Description="George Orwellin distopik romanı totaliter bir rejimin baskıcı dünyasında bireyselliğin kayboluşunu anlatıyor", IsApproved=true, IsHome=true},
+            new Product(){Name="Savaş ve Barış",Url="savas-ve-baris",Price=80,Description="Leo Tolstoyun epik eseri Napolyon savaşları döneminde Rus aristokrasisinin yaşamını ve değişimini ele alıyor", IsApproved=true, IsHome=true},
+            new Product(){Name="Küçük Prens",Url="kucuk-prens",Price=30,Description="Antoine de Saint-Exuperynin çocuk kalbiyle yazılmış bu masal büyüklere yönelik derin yaşam dersleri sunuyor", IsApproved=true, IsHome=true},
+            new Product(){Name="Suç ve Ceza",Url="suc-ve-ceza",Price=50,Description="Fyodor Dostoyevskinin bu romanı bir cinayetin ardından gelen içsel çatışmayı ve ahlaki sorgulamayı ele alıyor", IsApproved=true, IsHome=true},
+            new Product(){Name="Simyacı",Url="simyaci",Price=35,Description="Paulo Coelhonun bu eseri kendi hayallerinin peşinden koşmayı ve kişisel efsaneyi bulmayı anlatıyor", IsApproved=true, IsHome=true},
         };
 
         private static ProductCategory[] ProductCategories={

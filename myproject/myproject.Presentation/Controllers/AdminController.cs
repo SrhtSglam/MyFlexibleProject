@@ -13,6 +13,8 @@ using myproject.Entities;
 using myproject.Presentation.Extensions;
 using myproject.Presentation.Identity;
 using myproject.Presentation.Models;
+using myproject.Data.Concrete.EfCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace myproject.Presentation.Controllers
 {
@@ -196,9 +198,19 @@ namespace myproject.Presentation.Controllers
         {
             return View(new ProductListViewModel()
             {
-                Products = _productService.GetAll()
+                // Products = _productService.GetAll()
+                Products = GetAll()
             });
         }
+
+        private List<Product> GetAll()
+        {
+            using (var context = new ShopContext())
+            {
+                return context.Set<Product>().Include(i=>i.ProductImages).ToList();
+            }
+        }
+
         public IActionResult CategoryList()
         {
             return View(new CategoryListViewModel()
@@ -222,7 +234,6 @@ namespace myproject.Presentation.Controllers
                     Url = model.Url,
                     Price = model.Price,
                     Description = model.Description,
-                    ImageUrl = model.ImageUrl
                 };
                 
                 if(_productService.Create(entity))
@@ -295,7 +306,6 @@ namespace myproject.Presentation.Controllers
                 Name = entity.Name,
                 Url = entity.Url,
                 Price = entity.Price,
-                ImageUrl= entity.ImageUrl,
                 Description = entity.Description,
                 IsApproved = entity.IsApproved,
                 IsHome = entity.IsHome,
@@ -328,7 +338,6 @@ namespace myproject.Presentation.Controllers
                 {
                     var extention = Path.GetExtension(file.FileName);
                     var randomName = string.Format($"{Guid.NewGuid()}{extention}");
-                    entity.ImageUrl = randomName;
                     var path = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot\\img",randomName);
 
                     using(var stream = new FileStream(path,FileMode.Create))

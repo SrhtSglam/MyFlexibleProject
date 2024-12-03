@@ -76,7 +76,7 @@ namespace myproject.Data.Concrete.EfCore
             using (var context = new ShopContext())
             {
                 return context.Products
-                    .Where(i=>i.IsApproved && i.IsHome).ToList();
+                    .Where(i=>i.IsApproved && i.IsHome).Include(i => i.ProductImages).ToList();
             }
         }
         public Product GetProductDetails(string url)
@@ -87,7 +87,7 @@ namespace myproject.Data.Concrete.EfCore
                                 .Where(i=>i.Url==url)
                                 .Include(i=>i.ProductCategories)
                                 .ThenInclude(i=>i.Category)
-                                .Include(i=>i.ProductDetails)
+                                .Include(i=>i.ProductImages)
                                 // .Join(context.ProductDetails, j=> j.ProductId, x=> x.ProductId, (j, x) => new{j, x})
                                 .FirstOrDefault();
 
@@ -117,9 +117,9 @@ namespace myproject.Data.Concrete.EfCore
         {
             using (var context = new ShopContext())
             {
-                var products = context
-                    .Products
+                var products = context.Products
                     .Where(i=>i.IsApproved)
+                    .Include(i=>i.ProductImages)
                     .AsQueryable();
 
                 if(!string.IsNullOrEmpty(name))
@@ -141,7 +141,7 @@ namespace myproject.Data.Concrete.EfCore
                 var products = context
                     .Products
                     .Where(i=>i.IsApproved && (i.Name.ToLower().Contains(searchString.ToLower()) || i.Description.ToLower().Contains(searchString.ToLower()) || 
-                    i.Company.ToLower().Contains(searchString.ToLower()) || i.Description.ToLower().Contains(searchString.ToLower())))
+                    i.Company.ToLower().Contains(searchString.ToLower()) || i.Description.ToLower().Contains(searchString.ToLower()))).Include(i=>i.ProductImages)
                     .AsQueryable();
 
                 return products.ToList();
@@ -163,7 +163,6 @@ namespace myproject.Data.Concrete.EfCore
                     product.Price = entity.Price;
                     product.Description=entity.Description;
                     product.Url =entity.Url;
-                    product.ImageUrl =entity.ImageUrl;
                     product.IsApproved=entity.IsApproved;
                     product.IsHome=entity.IsHome;
 

@@ -1,7 +1,13 @@
 @model List<SubCategory>
-
-@for (int i = 0; i < Model.Count; i++)
-{
-    <li><a asp-controller="Shop" asp-action="List" asp-route-subcategory="@Model[i].Url"
-            class="nav-link rounded @(ViewBag.SelectedCategory == Model[i].Url?"active":"")">@Model[i].Name</a></li>
+    <style>
+        .mysubul{
+  list-style: none;
 }
+    </style>
+<ul class="mysubul btn-toggle-nav fw-normal pb-1 small">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <li><a asp-controller="Shop" asp-action="List" asp-route-subcategory="@Model[i].Url"
+                class="nav-link rounded text-white @(ViewBag.SelectedCategory == Model[i].Url?"active":"")">@Model[i].Name</a></li>
+    }
+</ul>

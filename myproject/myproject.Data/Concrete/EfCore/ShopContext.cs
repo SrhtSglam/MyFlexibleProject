@@ -13,7 +13,7 @@ namespace myproject.Data.Concrete.EfCore
     public class ShopContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
-        public DbSet<ProductDetail> ProductDetails { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<Cart> Cart { get; set; }
@@ -42,7 +42,7 @@ namespace myproject.Data.Concrete.EfCore
             modelBuilder.Entity<ProductCategory>()
                 .HasKey(c => new { c.CategoryId, c.ProductId, c.SubCategoryId });
 
-            modelBuilder.Entity<ProductDetail>()
+            modelBuilder.Entity<ProductImage>()
                 .HasKey(i => i.Id);
 
             // modelBuilder.Entity<Product>()

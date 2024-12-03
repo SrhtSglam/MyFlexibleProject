@@ -11,7 +11,7 @@ namespace myproject.Presentation.Models
         public int CartId { get; set; }
         public List<CartItemModel> CartItems { get; set; }
 
-        public double TotalPrice()
+        public decimal TotalPrice()
         {
             return CartItems.Sum(i=>i.Price*i.Quantity);
         }
@@ -26,7 +26,7 @@ namespace myproject.Presentation.Models
         public int CartItemId { get; set; }
         public int ProductId { get; set; }
         public string Name { get; set; }
-        public double Price { get; set; }
+        public decimal Price { get; set; }
         public string ImageUrl { get; set; }
         public int Quantity { get; set; }
     }

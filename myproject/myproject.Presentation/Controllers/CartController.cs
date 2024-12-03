@@ -33,7 +33,6 @@ namespace myproject.Presentation.Controllers
                     ProductId = i.ProductId,
                     Name = i.Product.Name,
                     Price = i.Product.Price.Value,
-                    ImageUrl = i.Product.ImageUrl,
                     Quantity = i.Quantity
                 }).ToList()
             });
@@ -65,7 +64,6 @@ namespace myproject.Presentation.Controllers
                     ProductId = i.ProductId,
                     Name = i.Product.Name,
                     Price = i.Product.Price.Value,
-                    ImageUrl = i.Product.ImageUrl,
                     Quantity = i.Quantity
                 }).ToList()
             };

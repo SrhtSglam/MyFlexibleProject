@@ -32,7 +32,8 @@
 
 <div class="card-container">
     <div class="card">
-        <img class="card-img-top card-img" src="~/img/new/@Model.ImageUrl" alt="">
+        <img class="card-img-top card-img" src="~/img/new/@Model.ProductImages[0].ImageUrl" alt="">
+        @* <img class="card-img-top card-img" src="~/img/slider1.png" alt=""> *@
         <div class="card-body">
             <h5 class="card-title"><b>@Model.Company</b> @Model.Name</h5>
             <small class="text-muted">
