@@ -13,6 +13,8 @@ namespace myproject.Data.Concrete.EfCore
     public class ShopContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
+        public DbSet<ActivityLog> ActivityLog { get; set; }
+        // public DbSet<WebProperties> WebProperties { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
@@ -43,6 +45,9 @@ namespace myproject.Data.Concrete.EfCore
                 .HasKey(c => new { c.CategoryId, c.ProductId, c.SubCategoryId });
 
             modelBuilder.Entity<ProductImage>()
+                .HasKey(i => i.Id);
+
+            modelBuilder.Entity<ActivityLog>()
                 .HasKey(i => i.Id);
 
             // modelBuilder.Entity<Product>()

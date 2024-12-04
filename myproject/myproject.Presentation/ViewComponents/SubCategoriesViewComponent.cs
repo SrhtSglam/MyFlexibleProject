@@ -13,6 +13,7 @@ namespace myproject.Presentation.ViewComponents
         }
         public IViewComponentResult Invoke(int categoryId)
         {
+            categoryId = 100;
             if (RouteData.Values["subcategory"]!=null)
                 ViewBag.SelectedSubCategory = RouteData?.Values["subcategory"];
 

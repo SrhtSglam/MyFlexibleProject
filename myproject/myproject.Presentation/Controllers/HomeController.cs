@@ -32,8 +32,8 @@ namespace myproject.Presentation.Controllers
                 IsCarousel = true,
                 CarouselHeaderLine = new List<CarouselHeaderLine>(){
                         new CarouselHeaderLine(){CarouselImageUrl = "wp1.jpg", CarouselHeader = "Header 0", CarouselLine = "Line0"}, //Carousel minimum 1 değer verilmeli, default değer almaz ise patlıyor.
-                        new CarouselHeaderLine(){CarouselImageUrl = "wp1.jpg", CarouselHeader = "Header 1", CarouselLine = "Line1"},
-                        new CarouselHeaderLine(){CarouselImageUrl = "wp2.jpg", CarouselHeader = "Header 2", CarouselLine = "Line2"},
+                        // new CarouselHeaderLine(){CarouselImageUrl = "wp1.jpg", CarouselHeader = "Header 1", CarouselLine = "Line1"},
+                        // new CarouselHeaderLine(){CarouselImageUrl = "wp2.jpg", CarouselHeader = "Header 2", CarouselLine = "Line2"},
                         // new CarouselHeaderLine(){CarouselImageUrl = "wp1.jpg", CarouselHeader = "Header 3", CarouselLine = "Line3"},
                         // new CarouselHeaderLine(){CarouselImageUrl = "wp2.jpg", CarouselHeader = "Header 4", CarouselLine = "Line4"},
                         // new CarouselHeaderLine(){CarouselImageUrl = "wp1.jpg", CarouselHeader = "Header 5", CarouselLine = "Line5"}
@@ -48,6 +48,8 @@ namespace myproject.Presentation.Controllers
                 CarouselSettings = CarouselSettings,
                 ProductListViewModel = productViewModel
             };
+
+
 
             return View(homemodel);
         }

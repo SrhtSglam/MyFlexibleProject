@@ -1,5 +1,5 @@
-@model List<Category>
-@foreach (var item in Model)
+@model CategoryListed
+@foreach (var item in Model.Category)
 {
     <li class="nav-item">
         <button class="btn btn-toggle align-items-center rounded collapsed text-white dropdown-toggle"
@@ -7,7 +7,20 @@
             @item.Name
         </button>
         <div class="collapse" id="@item.Name-categoriesdropdown">
-            @await Component.InvokeAsync("SubCategories", new {categoryId = item.CategoryId})
+            <ul class="mysubul btn-toggle-nav fw-normal pb-1 small">
+                @if (Model.CategorySubCategories.ContainsKey(item.CategoryId))
+                {
+                    @foreach (var subCategory in Model.CategorySubCategories[item.CategoryId])
+                    {
+                        <li>
+                            <a asp-controller="Shop" asp-action="List" asp-route-subcategory="@subCategory.Url"
+                               class="nav-link rounded text-white @(ViewBag.SelectedCategory == subCategory.Url ? "active" : "")">
+                                @subCategory.Name
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
         </div>
     </li>
 }

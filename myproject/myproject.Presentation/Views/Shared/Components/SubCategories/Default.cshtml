@@ -1,4 +1,4 @@
-@model List<SubCategory>
+@* @model List<SubCategory>
     <style>
         .mysubul{
   list-style: none;
@@ -10,4 +10,4 @@
         <li><a asp-controller="Shop" asp-action="List" asp-route-subcategory="@Model[i].Url"
                 class="nav-link rounded text-white @(ViewBag.SelectedCategory == Model[i].Url?"active":"")">@Model[i].Name</a></li>
     }
-</ul>
+</ul> *@
