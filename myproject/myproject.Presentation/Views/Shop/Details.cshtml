@@ -1,16 +1,12 @@
 @model ProductDetailModel
 <div class="row">
     <div class="col-md-3">
-        @* <img src="~/img/new/@Model.Product.ImageUrl" class="img-fluid"> *@
         <div id="carouselItemIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                @{
-                    int i = -1;
-                }
+                @{int i = -1;}
                 @foreach(var items in Model.Product.ProductImages){
                     i++;
                     <img src="~/img/new/@items.ImageUrl" alt="Image" data-target="#carouselItemIndicators" class="carouselitemdiv" data-slide-to="@i">
-                    @* <img src="~/img/slider1.png" alt="Image" data-target="#carouselItemIndicators" class="carouselitemdiv" data-slide-to="@i"> *@
                 }
             </ol>
             <div class="carousel-inner">
@@ -24,7 +20,6 @@
                     }else{
                         <div class="carousel-item">
                             <img class="d-block w-100" src="~/img/new/@items.ImageUrl" alt="slide not loading">
-                            @* <img class="d-block w-100" src="~/img/slider1.png" alt="slide not loading"> *@
                         </div>
                     }
                 }
@@ -39,37 +34,60 @@
             </a>
         </div>
     </div>
-    <div class="col-md-9">                
-            <h1 class="mb-3">@Model.Product.Company @Model.Product.Name</h5> <hr>
+    <div class="col-md-6">                
+        <h1 class="mb-3">@Model.Product.Company @Model.Product.Name</h1>
+        <hr>
 
-            @foreach (var item in Model.Categories)
-            {
-                <a asp-controller="shop" asp-action="list" asp-route-category="@item.Url" class="btn btn-link p-0 mb-3">@item.Name</a> 
-            }                          
+        @foreach (var item in Model.Categories)
+        {
+            <a asp-controller="shop" asp-action="list" asp-route-category="@item.Url" class="btn btn-link p-0 mb-3">@item.Name</a> 
+        }                          
+        
+        <div class="mb-3">
+            <h4 class="text-primary mb-3">
+                <i class="fas fa-lira-sign"></i>@Model.Product.Price
+            </h4>
             
-            <div class="mb-3">
-                <h4 class="text-primary mb-3">
-                    <i class="fas fa-lira-sign"></i>@Model.Product.Price
-                </h4>
-                
-                <form asp-controller="Cart" asp-action="AddToCart" method="POST" class="form-inline">
-                    <input type="hidden" name="productId" value="@Model.Product.ProductId">
-                    <div class="input-group mb-3">
-                        <input type="number" name="quantity" class="form-control" value="1" min="1" step="1" style="width: 100px;">
-                        <div class="input-group-append">
-                            <button type="submit" class="btn btn-primary">
-                                <i class="fas fa-cart-plus"></i>@_localization.GetKey("product_addtocart_button")
-                            </button>
-                        </div>
-                    </div>     
-               
-                </form>
-            </h6>
+            <form asp-controller="Cart" asp-action="AddToCart" method="POST" class="form-inline">
+                <input type="hidden" name="productId" value="@Model.Product.ProductId">
+                <div class="input-group mb-3">
+                    <input type="number" name="quantity" class="form-control" value="1" min="1" step="1" style="width: 100px;">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-cart-plus"></i>@_localization.GetKey("product_addtocart_button")
+                        </button>
+                    </div>
+                </div>     
+            </form>
+        </div>
     </div>
 </div>
 <div class="row">
     <div class="col-md-12 p-5">
         <h5>@_localization.GetKey("product_details_properties")</h5>
-        <p class="p-3">@Html.Raw(Model.Product.Description)</p>
+        <div class="row">
+            <div class="col-md-9">
+                <p class="p-3">@Html.Raw(Model.Product.Description)</p>
+            </div>
+            <div class="col-md-3">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ÖZELLİK ADI</th>
+                            <th>ÖZELLİK DEĞERİ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @* @foreach (var property in Model.Product.Properties)
+                        {
+                            <tr>
+                                <td>@property.Name</td>
+                                <td>@property.Value</td>
+                            </tr>
+                        } *@
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </div>

@@ -1,0 +1,577 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\43b77dec-5ff6-4d32-a8c2-5e53a312b312.jpg",
+      "PackagePath": "staticwebassets\\img\\43b77dec-5ff6-4d32-a8c2-5e53a312b312.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b1.jpg",
+      "PackagePath": "staticwebassets\\img\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b10.jpg",
+      "PackagePath": "staticwebassets\\img\\b10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b2.jpg",
+      "PackagePath": "staticwebassets\\img\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b3.jpg",
+      "PackagePath": "staticwebassets\\img\\b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b4.jpg",
+      "PackagePath": "staticwebassets\\img\\b4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b5.jpg",
+      "PackagePath": "staticwebassets\\img\\b5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b6.jpg",
+      "PackagePath": "staticwebassets\\img\\b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b7.jpg",
+      "PackagePath": "staticwebassets\\img\\b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b8.jpg",
+      "PackagePath": "staticwebassets\\img\\b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\b9.jpg",
+      "PackagePath": "staticwebassets\\img\\b9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\carousel\\wp1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel\\wp1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\carousel\\wp2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel\\wp2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\guest.png",
+      "PackagePath": "staticwebassets\\img\\guest.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\indir.png",
+      "PackagePath": "staticwebassets\\img\\indir.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\cinema1.png",
+      "PackagePath": "staticwebassets\\img\\new\\cinema1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\clock1.png",
+      "PackagePath": "staticwebassets\\img\\new\\clock1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\clock2.png",
+      "PackagePath": "staticwebassets\\img\\new\\clock2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\drone1.png",
+      "PackagePath": "staticwebassets\\img\\new\\drone1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\fridge1.png",
+      "PackagePath": "staticwebassets\\img\\new\\fridge1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\game1.png",
+      "PackagePath": "staticwebassets\\img\\new\\game1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\hair1.png",
+      "PackagePath": "staticwebassets\\img\\new\\hair1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\hair2.png",
+      "PackagePath": "staticwebassets\\img\\new\\hair2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\laptop1-1.png",
+      "PackagePath": "staticwebassets\\img\\new\\laptop1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\laptop1-2.png",
+      "PackagePath": "staticwebassets\\img\\new\\laptop1-2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\laptop1.png",
+      "PackagePath": "staticwebassets\\img\\new\\laptop1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\laptop2.png",
+      "PackagePath": "staticwebassets\\img\\new\\laptop2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\laptop3.png",
+      "PackagePath": "staticwebassets\\img\\new\\laptop3.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\laptop4.png",
+      "PackagePath": "staticwebassets\\img\\new\\laptop4.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\material1.png",
+      "PackagePath": "staticwebassets\\img\\new\\material1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\mop1.png",
+      "PackagePath": "staticwebassets\\img\\new\\mop1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\mop2.png",
+      "PackagePath": "staticwebassets\\img\\new\\mop2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\music1.png",
+      "PackagePath": "staticwebassets\\img\\new\\music1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\music2.png",
+      "PackagePath": "staticwebassets\\img\\new\\music2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\pc1.png",
+      "PackagePath": "staticwebassets\\img\\new\\pc1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\pc2.png",
+      "PackagePath": "staticwebassets\\img\\new\\pc2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\pc3.png",
+      "PackagePath": "staticwebassets\\img\\new\\pc3.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\phone1.png",
+      "PackagePath": "staticwebassets\\img\\new\\phone1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\phone2.png",
+      "PackagePath": "staticwebassets\\img\\new\\phone2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\phone3.png",
+      "PackagePath": "staticwebassets\\img\\new\\phone3.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\phone4.png",
+      "PackagePath": "staticwebassets\\img\\new\\phone4.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\photo1.png",
+      "PackagePath": "staticwebassets\\img\\new\\photo1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\photo2.png",
+      "PackagePath": "staticwebassets\\img\\new\\photo2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\printer1.png",
+      "PackagePath": "staticwebassets\\img\\new\\printer1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\ps3-1.png",
+      "PackagePath": "staticwebassets\\img\\new\\ps3-1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\ps3-2.png",
+      "PackagePath": "staticwebassets\\img\\new\\ps3-2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\ps4-1.png",
+      "PackagePath": "staticwebassets\\img\\new\\ps4-1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\stove1.png",
+      "PackagePath": "staticwebassets\\img\\new\\stove1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\stove2.png",
+      "PackagePath": "staticwebassets\\img\\new\\stove2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\tablet1.png",
+      "PackagePath": "staticwebassets\\img\\new\\tablet1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\tablet2.png",
+      "PackagePath": "staticwebassets\\img\\new\\tablet2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\tablet3.png",
+      "PackagePath": "staticwebassets\\img\\new\\tablet3.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\tv1.png",
+      "PackagePath": "staticwebassets\\img\\new\\tv1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\tv2.png",
+      "PackagePath": "staticwebassets\\img\\new\\tv2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\new\\xbox1.png",
+      "PackagePath": "staticwebassets\\img\\new\\xbox1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\pp.jpg",
+      "PackagePath": "staticwebassets\\img\\pp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\slider1.png",
+      "PackagePath": "staticwebassets\\img\\slider1.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\slider2.png",
+      "PackagePath": "staticwebassets\\img\\slider2.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\img\\slider3.png",
+      "PackagePath": "staticwebassets\\img\\slider3.png"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.css",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.js",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.js.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\adminlte\\adminlte.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\adminlte\\adminlte.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\stj067\\Documents\\GitHub\\MyFlexibleProject\\myproject\\myproject.Presentation\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.myproject.Presentation.props",
+      "PackagePath": "build\\myproject.Presentation.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.myproject.Presentation.props",
+      "PackagePath": "buildMultiTargeting\\myproject.Presentation.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.myproject.Presentation.props",
+      "PackagePath": "buildTransitive\\myproject.Presentation.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.myproject.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

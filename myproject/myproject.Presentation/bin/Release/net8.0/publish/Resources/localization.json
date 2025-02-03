@@ -1,0 +1,141 @@
+{
+  "navbar_item_admin": {
+    "en-US": "Dashboard",
+    "tr-TR": "Kontrol Paneli"
+  },
+  "navbar_dropdown_header_1": {
+    "en-US": "Categories",
+    "tr-TR": "Kategoriler"
+  },
+  "navbar_dropdown_header_2": {
+    "en-US": "Companies",
+    "tr-TR": "Firmalar"
+  },
+  "navbar_item_profile": {
+    "en-US": "Account",
+    "tr-TR": "Hesabım"
+  },
+
+  "sidebar_item_home": {
+    "en-US": "Home",
+    "tr-TR": "Ana sayfa"
+  },
+  
+  "sidebar_item_categories1": {
+    "en-US": "Personal Electronics",
+    "tr-TR": "Kişisel Elektronik"
+  },
+  "sidebar_item_categories2": {
+    "en-US": "Home Electronics",
+    "tr-TR": "Ev Elektroniği"
+  },
+  "sidebar_item_categories3": {
+    "en-US": "Office & Imaging",
+    "tr-TR": "Ofis ve Görüntüleme"
+  },
+
+  "sidebar_item_dashboard_webmanager": {
+    "en-US": "Web management",
+    "tr-TR": "Site yönetimi"
+  },
+  "sidebar_item_companies": {
+    "en-US": "Companies",
+    "tr-TR": "Firmalar"
+  },
+  "sidebar_item_dashboard": {
+    "en-US": "Dashboard",
+    "tr-TR": "Kontrol paneli"
+  },
+  "sidebar_item_dashboard_categories": {
+    "en-US": "Categories",
+    "tr-TR": "Kategoriler"
+  },
+  "sidebar_item_dashboard_control": {
+    "en-US": "Control",
+    "tr-TR": "Kontrol"
+  },
+  "sidebar_item_dashboard_products": {
+    "en-US": "Products",
+    "tr-TR": "Ürünler"
+  },
+  "sidebar_item_dashboard_users": {
+    "en-US": "Users",
+    "tr-TR": "Kullanıcılar"
+  },
+
+  "sidebar_item_account_profile": {
+    "en-US": "Profile",
+    "tr-TR": "Hesabım"
+  },
+  "sidebar_item_account_logout": {
+    "en-US": "Logout",
+    "tr-TR": "Çıkış yap"
+  },
+  "sidebar_item_account_login": {
+    "en-US": "Login",
+    "tr-TR": "Giriş yap"
+  },
+  "sidebar_item_account_register": {
+    "en-US": "Register",
+    "tr-TR": "Kayıt ol"
+  },
+
+  "accont_header_title": {
+    "en-US": "My Account",
+    "tr-TR": "Hesabım"
+  },
+  "accont_body_islogin": {
+    "en-US": "Is login on?: ",
+    "tr-TR": "Giriş yapıldı mı?: "
+  },
+  "accont_body_logintype": {
+    "en-US": "Login Type: ",
+    "tr-TR": "Giriş Tipi: "
+  },
+  "accont_body_passwordchange": {
+    "en-US": "Change Password",
+    "tr-TR": "Şifre Değiştir"
+  },
+  "accont_body_deleteaccount": {
+    "en-US": "Delete Account",
+    "tr-TR": "Hesabımı Sil"
+  },
+  "accont_body_deleteaccount_modal_title": {
+    "en-US": "Delete My Account",
+    "tr-TR": "Hesabımı Sil"
+  },
+  "accont_body_deleteaccount_modal_body": {
+    "en-US": "Are you sure you want to delete your account?",
+    "tr-TR": "Hesabınızı silmek istediğinize emin misiniz?"
+  },
+  "accont_body_deleteaccount_modal_close": {
+    "en-US": "Close",
+    "tr-TR": "Kapat"
+  },
+  "accont_body_deleteaccount_modal_delete": {
+    "en-US": "Delete",
+    "tr-TR": "Sil"
+  },
+  "accont_body_help": {
+    "en-US": "Help",
+    "tr-TR": "Destek"
+  },
+
+  "footer_text": {
+    "en-US": "© 2024 MyProject. All rights reserved. | Privacy Policy | Terms of Use | Contact: info@myproject.com",
+    "tr-TR": "© 2024 MyProject. Tüm hakları saklıdır. | Gizlilik Politikası | Kullanım Şartları | İletişim: info@myproject.com"
+  },
+
+  "product_details_button": {
+    "en-US": "Info",
+    "tr-TR": "Detay"
+  },
+  "product_details_properties": {
+    "en-US": "Properties & Description",
+    "tr-TR": "Özellikler ve Açıklama"
+  },
+  "product_addtocart_button": {
+    "en-US": "Add",
+    "tr-TR": "Ekle"
+  }
+}
